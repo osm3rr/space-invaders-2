@@ -2,7 +2,7 @@ space invadres step by step
 by: Tomohiro Nishikado in 1978
 net profit: 2000 Millons (2 Billions)
 
-# Video 1
+#/// Video 1: Creating our first game window ////
 .1 import pygame
 .2 initialize the pygame with pygame.init()
 .3 Define the screen size
@@ -10,8 +10,16 @@ net profit: 2000 Millons (2 Billions)
 .5 run the script and show the problem
 with the window
 .6 include the game loop
+.7 run the program
+.8 add the file in staging area in git
+.9 do it a commit 
+.10 change of branch
+.11 do it a merge
+.12 do it the push
 
-# Video 2: add title, icon and background
+
+#/// Video 2: add title, icon and background ///
+.0 Review the was done in the previous video
 .1 add the window title
 .2 add the icon from https://www.flaticon.com/
 .3 select the icon, the size (32 px) and download
