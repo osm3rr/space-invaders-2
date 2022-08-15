@@ -40,15 +40,66 @@ Answer: the icon don't show because we don't display
 .17 do it a merge
 .18 do it the push
 
-.
-.10 
+#/// Video 3: adding images ///
+.0 Review the was done in the previous video
+.1 select and download a player image (64 px) in the web site flaticon
+.2 put the selected image in the project folder
+.3 explain how is are x and y coordinates in the window
+.4 create a variable with palyer image
+.5 create a variable with x ubication
+.6 create a variable with y ubication
+.7 define the function player
+.8 explain the use of blit method 
+.9 use the correct argument for blit
+.10 call the player function inside the while loop
+.11 explain the correct position of the call to function player
+.12 play with diferents positions in x and y coordinates for the player
+.13 run the program
+.14 add the file in staging area in git
+.15 do it a commit 
+.16 change of branch
+.17 do it a merge
+.18 do it the push
+
+#/// Video 4: Movement mechanics ///
+.0 review what has been done so far
+.1 explain the movement mechanins in blackboard
+.2 explain the need to use x and y coordinates
+.3 add in the player function the parameter x and y
+.4 add the arguments in the call to player function 
+inside the while lopp
+.5 run the program -> no changes yet
+.6 add a counter inside the while loop, for increment x speed 
+the first value is 5
+.7 explain what it means the counter
+.8 run the program and show what happens
+.9 change the increment by 0.1 in the player x variable
+.10 run the program and show the diference
+.11 if we have time: add a print(player_x) for 
+for demonstration purposes
+.12 clean the terminal before run de program
+.13 change the counter value by -0.1 for explain
+the left movement
+.14 for demonstration purposes, change the y counter 
+and change the argument in the print
+.15 explain the problems to solve: 
+associate player movement with keyboard arrows
+
+
+
+
+add the player image in the screen
+
+
+
 .11 add the command screen.fill( (r, g, b) )
 run the script and explain the problem with
 update: 
 .12 test some colors combinations.
 .13 Download the space invaders plane
 .14 explain the screen size
-.15 add the player image
+.15 
+
 .16 Add the posicion and play with the ubication
 .17 Movement mechanics
 .18 Explain the movement in x and y
