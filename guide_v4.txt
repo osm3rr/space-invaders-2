@@ -58,5 +58,32 @@ Answer: the icon don't show because we don't display
 .18 do it the push
 
 #/// Video 4: Movement mechanics ///
+.0 review what has been done so far
+.1 explain the movement mechanins in blackboard
+.2 explain the need to use x and y coordinates
+.3 add in the player function the parameter x and y
+.4 add the arguments in the call to player function 
+inside the while lopp
+.5 run the program -> no changes yet
+.6 add a counter inside the while loop, for increment x speed 
+the first value is 5
+.7 explain what it means the counter
+.8 run the program and show what happens
+.9 change the increment by 0.1 in the player x variable
+.10 run the program and show the diference
+.11 if we have time: add a print(player_x) for 
+for demonstration purposes
+.12 clean the terminal before run de program
+.13 change the counter value by -0.1 for explain
+the left movement
+.14 for demonstration purposes, change the y counter 
+and change the argument in the print
+.15 explain the problems to solve: 
+associate player movement with keyboard arrows
+.16 add the file in staging area in git
+.17 do it a commit 
+.18 change of branch
+.19 do it a merge
+.20 do it the push
 
 

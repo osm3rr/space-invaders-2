@@ -84,6 +84,12 @@ the left movement
 and change the argument in the print
 .15 explain the problems to solve: 
 associate player movement with keyboard arrows
+.16 add the file in staging area in git
+.17 do it a commit 
+.18 change of branch
+.19 do it a merge
+.20 do it the push
+
 
 
 
