@@ -1,0 +1,41 @@
+#/// Video 5: keyboard input control 
+and key pressed event///
+.0 review what has been done so far
+.1 explain what we want to control
+.2 explain the strategy:
+  - first we want review if a key was pressed
+  - second we want review what key was pressed
+.3 remove the counter player_y and the 
+test print( player_y )
+.4 explain the event key pressed in the for loop
+.5 add the conditional inside the for loop,
+ to identify the keystroke was pressed
+.6 add a nested conditional for identify the left 
+and the right arrow 
+.7 add a conditional to identify the keystroke was
+released
+.8 execute the program and show what 
+is happening in the terminal
+.9 add the rate change in x for player (player_x)
+put in 0 for now.
+.10 add the rate change in x iqual -0.1 if left key is pressed
+.11 add the rate change in x iqual +0.1 if right key is pressed
+.12 add the rate change in x iqual 0 if right or left key is released
+.13 update (increment or decrement) the player x coordinate
+.14 explain the reason for the movement
+.15 increment the player speed, changing the rate change in x 
+.16 review what has been done so far
+.17 add the file in staging area in git
+.18 do it a commit 
+.19 change of branch
+.20 do it a merge
+.21 do it the push
+
+#/// Video 6: adding boundaries///
+.0 review what has been done so far
+.1 explain how to define player movement limits
+.2 add the conditionals for player boundaries, before 
+the call it to the player function
+
+
+
