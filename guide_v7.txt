@@ -1,0 +1,14 @@
+#/// Video 6: adding boundaries///
+.0 review what has been done so far
+.1 explain how to define player movement limits
+.2 add the conditionals for player boundaries, before 
+the call it to the player function
+.3 review what has been done so far
+.4 add the file in staging area in git
+.5 do it a commit 
+.6 change of branch
+.7 do it a merge
+.8 do it the push
+
+#/// Video 7: adding the enemy///
+.0 review what has been done so far
