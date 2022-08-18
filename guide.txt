@@ -1,0 +1,140 @@
+space invadres step by step
+by: Tomohiro Nishikado in 1978
+net profit: 2000 Millons (2 Billions)
+
+#/// Video 1: Creating our first game window ////
+.1 import pygame
+.2 initialize the pygame with pygame.init()
+.3 Define the screen size
+.4 Create the screen
+.5 run the script and show the problem
+with the window
+.6 include the game loop
+.7 run the program
+.8 add the file in staging area in git
+.9 do it a commit 
+.10 change of branch
+.11 do it a merge
+.12 do it the push
+
+
+#/// Video 2: add title, icon and background ///
+.0 Review the was done in the previous video
+.1 add the window title
+.2 add the icon from https://www.flaticon.com/
+.3 select the icon, the size (32 px) and download
+.4 create a icon variable 
+.5 run the program. ask what's happening?
+Answer: the icon don't show because we don't display
+.6 display the icon
+.7 add inside the while loop the variable "screen" with the method "fill"
+.8 Explain and show the RGB colors in a web site
+.9 add a variable with colors rgb = ( 0, 0, 0 )
+.10 run the program and explain what's happening
+.11 explain why we need update the screen
+.12 add sentence for update the screen
+.13 run the program
+.14 add the file in staging area in git
+.15 do it a commit 
+.16 change of branch
+.17 do it a merge
+.18 do it the push
+
+#/// Video 3: adding images ///
+.0 Review the was done in the previous video
+.1 select and download a player image (64 px) in the web site flaticon
+.2 put the selected image in the project folder
+.3 explain how is are x and y coordinates in the window
+.4 create a variable with palyer image
+.5 create a variable with x ubication
+.6 create a variable with y ubication
+.7 define the function player
+.8 explain the use of blit method 
+.9 use the correct argument for blit
+.10 call the player function inside the while loop
+.11 explain the correct position of the call to function player
+.12 play with diferents positions in x and y coordinates for the player
+.13 run the program
+.14 add the file in staging area in git
+.15 do it a commit 
+.16 change of branch
+.17 do it a merge
+.18 do it the push
+
+#/// Video 4: Movement mechanics ///
+.0 review what has been done so far
+.1 explain the movement mechanins in blackboard
+.2 explain the need to use x and y coordinates
+.3 add in the player function the parameter x and y
+.4 add the arguments in the call to player function 
+inside the while lopp
+.5 run the program -> no changes yet
+.6 add a counter inside the while loop, for increment x speed 
+the first value is 5
+.7 explain what it means the counter
+.8 run the program and show what happens
+.9 change the increment by 0.1 in the player x variable
+.10 run the program and show the diference
+.11 if we have time: add a print(player_x) for 
+for demonstration purposes
+.12 clean the terminal before run de program
+.13 change the counter value by -0.1 for explain
+the left movement
+.14 for demonstration purposes, change the y counter 
+and change the argument in the print
+.15 explain the problems to solve: 
+associate player movement with keyboard arrows
+.16 add the file in staging area in git
+.17 do it a commit 
+.18 change of branch
+.19 do it a merge
+.20 do it the push
+
+
+
+
+
+add the player image in the screen
+
+
+
+.11 add the command screen.fill( (r, g, b) )
+run the script and explain the problem with
+update: 
+.12 test some colors combinations.
+.13 Download the space invaders plane
+.14 explain the screen size
+.15 
+
+.16 Add the posicion and play with the ubication
+.17 Movement mechanics
+.18 Explain the movement in x and y
+.19 control the movement with the keyboard
+.20 Add condition for horizontal movement
+.21 creating the enemy: space invaders in flaticon
+.22 add a random value for ubication of the enemy
+for doing that import random
+.23 add movement to the enemy (random movement in x)
+.24 change the rate the movement in y
+.25 creating one bullet
+.26 shooting multiple bullets
+.27 the bullet following the space-ship
+.28 Collision detection: include the equation for 
+detect the distance between two points 
+.29 add the score variable
+.30 change the value of x in the enemy for avoid a bug
+.31 Add multiples enemies
+.32 create lists with the necesary variables
+.33 move the Collision inside the enemy for loop 
+.34 we define a variable "font" with the font type 
+.35 we define a function for show the score
+.36 we can download extra fonts from https://www.fontspace.com/category/ttf or 
+other web site
+.37 test with other fonts and colors
+.38 add the soound efect one web alternative is: https://pixabay.com/sound-effects
+.39 web app for convert .mp3 to .wav: https://cloudconvert.com/mp3-to-wav
+.40 adding the game over text
+
+
+
+

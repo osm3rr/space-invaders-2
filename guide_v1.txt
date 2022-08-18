@@ -1,0 +1,14 @@
+# Video 1: Creating our first game window
+.1 import pygame
+.2 initialize the pygame with pygame.init()
+.3 Define the screen size
+.4 Create the screen
+.5 run the script and show the problem
+with the window
+.6 include the game loop
+.7 run the program
+.8 add the file in staging area in git
+.9 do it a commit 
+.10 change of branch
+.11 do it a merge
+.12 do it the push

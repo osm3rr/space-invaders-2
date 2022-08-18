@@ -1,0 +1,37 @@
+#/// Video 1: Creating our first game window ////
+.1 import pygame
+.2 initialize the pygame with pygame.init()
+.3 Define the screen size
+.4 Create the screen
+.5 run the script and show the problem
+with the window
+.6 include the game loop
+.7 run the program
+.8 add the file in staging area in git
+.9 do it a commit 
+.10 change of branch
+.11 do it a merge
+.12 do it the push
+
+
+#/// Video 2: add title, icon and background ///
+.0 Review the was done in the previous video
+.1 add the window title
+.2 add the icon from https://www.flaticon.com/
+.3 select the icon, the size (32 px) and download
+.4 create a icon variable 
+.5 run the program. ask what's happening?
+Answer: the icon don't show because we don't display
+.6 display the icon
+.7 add inside the while loop the variable "screen" with the method "fill"
+.8 Explain and show the RGB colors in a web site
+.9 add a variable with colors rgb = ( 0, 0, 0 )
+.10 run the program and explain what's happening
+.11 explain why we need update the screen
+.12 add sentence for update the screen
+.13 run the program
+.14 add the file in staging area in git
+.15 do it a commit 
+.16 change of branch
+.17 do it a merge
+.18 do it the push
