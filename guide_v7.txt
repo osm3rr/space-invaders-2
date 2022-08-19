@@ -22,14 +22,14 @@ search space invaders
 after the calling to the player function
 .7 explain the random movement of the enemy
 .8 import random library
-.9 
-
-
-
-.7 review what has been done so far
-.8 add the file in staging area in git
-.9 do it a commit 
-.10 change of branch
-.11 do it a merge
-.12 do it the push
+.9 add the method random.randonit in x coordinate
+.10 add the method random.randonit in y coordinate
+.11 explain the reason of the ranges in x and y
+coordinates
+.12 review what has been done so far
+.13 add the file in staging area in git
+.14 do it a commit 
+.15 change of branch
+.16 do it a merge
+.17 do it the push
 
