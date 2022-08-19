@@ -1,7 +1,5 @@
 # v1_1: pygame library
 import pygame 
-# |||||||| v7_4/X: random library ||||||||
-import random
 
 # v1_2: initializate pygame
 pygame.init()
@@ -30,15 +28,10 @@ player_y = 480
 # v5_4: add the rate change in x
 player_x_change = 0
 
-#||||||| v7_1/3: enemy definition ||||||
+# v7_1/3: enemy definition
 enemy_img = pygame.image.load( "alien.png" )
-
-# |||||||| v7_6/x: randoom movement of the enemy
-# enemy_x = 370
-enemy_x = random.randint( 0, 800 )
-
-# enemy_y = 50
-enemy_y = random.randint( 50, 150 )
+enemy_x = 370
+enemy_y = 50
 enemy_x_change = 0
 
 # v3_2: player function
@@ -49,7 +42,7 @@ enemy_x_change = 0
 def player(x, y):
     screen.blit( player_img, ( x, y ) )
 
-# ||||||| v7_2/3: enemy function ||||||
+# v7_2/3: enemy function
 def enemy(x, y):
     screen.blit( enemy_img, ( x, y ) )
 
@@ -103,7 +96,7 @@ while running:
     # v4_2: add the arguments to function
     player( player_x, player_y )
 
-    # ||||||| v7_3/3: calling to enemy function ||||||
+    # v7_3/3: calling to enemy function
     enemy( enemy_x, enemy_y )
     
     # v2_4: update the window 
