@@ -1,0 +1,22 @@
+#/// Video 9: summary of comments ///
+v9_1/4: background image
+v9_2/4: Show the background
+v9_3/4: change the enemy speed
+v9_4/4:  change the player speed
+
+
+#/// Video 9: adding the backgound///
+.0 review what has been done so far
+.1 select de image for backgound 800x600 px
+.2 insert the sentence for load the backgound image
+before the window title
+.3 insert the sentence for display the background,
+after fill method
+.4 increment the speed of the enemy 
+.5 increment the speed of the player
+.6 review what has been done so far
+.7 add the file in staging area in git
+.8 do it a commit 
+.9 change of branch
+.10 do it a merge
+.11 do it the push
