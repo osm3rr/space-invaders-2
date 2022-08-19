@@ -1,13 +1,28 @@
-#/// Video 7: adding the enemy///
+#/// Video 8: summary of comments ///
+
+v8_1/5: change the value of rate change in "x"
+v8_2/5: logic for movement of the enemy
+v8_3/5: size of the enemy is according 
+to size of the enemy in px. in this case the enemy
+size is 24 px, this is: 800 - 24: 776
+v8_4/5: increment the value of the 
+"y" coordinate of the enemy
+v8_5/5: increment the value of the 
+"y" coordinate of the enemy
+
+
+#/// Video 8: movement mechanics of the enemy///
 .0 review what has been done so far
-.1 select the enemy from www.flaticon.com
-search space invaders
-.2 download an image with 64px
-.3 define the enemy parameters, after the player definition
-.4 explain the enemy coordinates
-.5 define the enemy function, after the player function
-.6 add the calling to the enemy function, 
-after the calling to the player function
+.1 explain the logic of the movement of the enemy
+.2 change the value of rate change in x for the enemy
+.3 change the value of rate change in y for the enemy
+.4 add the logic for movement of the enemy, after of
+the movement logic of the player
+.5 change the value of the rate change in y
+.6 increment the value of the "y" coordinate of the enemy,
+when the enemy hits the limits of the windows.
+This sentences go inside the conditionals of the logic
+for movement of the enemy
 .7 review what has been done so far
 .8 add the file in staging area in git
 .9 do it a commit 
@@ -15,6 +30,4 @@ after the calling to the player function
 .11 do it a merge
 .12 do it the push
 
-#/// Video 8: movement mechanics of invaders///
-0. review what has been done so far
-1. 
+
