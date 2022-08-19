@@ -12,3 +12,18 @@ the call it to the player function
 
 #/// Video 7: adding the enemy///
 .0 review what has been done so far
+.1 select the enemy from www.flaticon.com
+search space invaders
+.2 download an image with 64px
+.3 define the enemy parameters, after the player definition
+.4 explain the enemy coordinates
+.5 define the enemy function, after the player function
+.6 add the calling to the enemy function, 
+after the calling to the player function
+.7 review what has been done so far
+.8 add the file in staging area in git
+.9 do it a commit 
+.10 change of branch
+.11 do it a merge
+.12 do it the push
+

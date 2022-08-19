@@ -22,11 +22,17 @@ icon = pygame.image.load( "ufo.png" )
 pygame.display.set_icon( icon )
 
 # v3_1: player
-player_img = pygame.image.load( "player3.png" )
+player_img = pygame.image.load( "player.png" )
 player_x = 370
 player_y = 480
 # v5_4: add the rate change in x
 player_x_change = 0
+
+#||||||| v7_1/3: enemy definition ||||||
+enemy_img = pygame.image.load( "alien.png" )
+enemy_x = 370
+enemy_y = 50
+enemy_x_change = 0
 
 # v3_2: player function
 # def player():
@@ -36,6 +42,9 @@ player_x_change = 0
 def player(x, y):
     screen.blit( player_img, ( x, y ) )
 
+# ||||||| v7_2/3: enemy function ||||||
+def enemy(x, y):
+    screen.blit( enemy_img, ( x, y ) )
 
 
 # v1_6: Game loop
@@ -56,13 +65,10 @@ while running:
                 #V5_5: movement to left and remove the test print()
                 player_x_change = -0.5
                 
-                
-            
             if event.key == pygame.K_RIGHT:
                 #V5_6: movement to right and remove the test print()
                 player_x_change = 0.5
                 
-            
             #  v5_3: review if keystroke was released
         if event.type == pygame.KEYUP:
             if event.key == pygame.K_LEFT or event.key == pygame.K_RIGHT:
@@ -77,11 +83,11 @@ while running:
     # v5_8: incremente or decrement the x variable 
     player_x += player_x_change
     
-    #|||||||||||| v6_1/2: player x boundaries left||||||||||
+    # v6_1/2: player x boundaries left
     if player_x <= 0:
         player_x = 0
         
-    # |||||||||||| v6_2/2: this value 736, is according to 
+    # v6_2/2: this value 736, is according to 
     # the size of the player image
     # player boundaries right
     elif player_x >= 736: 
@@ -89,6 +95,10 @@ while running:
     
     # v4_2: add the arguments to function
     player( player_x, player_y )
+
+    # ||||||| v7_3/3: calling to enemy function ||||||
+    enemy( enemy_x, enemy_y )
     
     # v2_4: update the window 
     pygame.display.update()
+
