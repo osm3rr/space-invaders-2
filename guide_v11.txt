@@ -1,0 +1,31 @@
+#||||| Video 11: Shooting multiple bullets 
+|||||||||| summary of comments
+v11_1/7: logic for multiple bullet (line: 150 )
+v11_2/7: reset the bullet position (line: 152 )
+v11_3/7: reset the bullet state (line: 154 )
+v11_4/7 set fire function with bullet_x (line: 158 )
+v11_5/7: set bullet_x to player_x (line: 99 )
+v11_6/7: change player_x to bullet_x (line: 101 )
+v11_7/7: review the bullet state (line: 97 )
+
+
+#/// Video 11: Shooting multiple bullets///
+.0 review what has been done so far
+.1 explain the current problems
+.2 multiple bullets
+.3 add a conditional for detect the bullet 
+position and achive multiple shooting
+.4 solve the independent bullet motion
+.5 set bullet_x to player_x
+.6 change player_x in fire function to bullet_x
+.7 explain the new problem, the bullet follows 
+the spaceship if the space key is pressed.
+.8 add a condition for review the bullet state
+.9 review what has been done so far
+.10 add the file in staging area in git
+.11 do it a commit 
+.12 change of branch
+.13 do it a merge
+.14 do it the push
+
+
