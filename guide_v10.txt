@@ -1,0 +1,37 @@
+#/// Video 10: summary of comments ///
+v10_1/6: Create the bullet
+v10_2/6: create fire function
+v10_3/6: detect space key
+v10_4/6: logic for bullet movement
+v10_5/6: initial position of the bullet
+v10_6/6: bullet movement
+
+
+#/// Video 10: Creating bullets for shooting///
+.0 review what has been done so far
+.1 explain the movement logic of the bullets
+.2 download the bullet image from flaticon: 24 px
+.3 create the bullet parameters (copy from enemy)
+.4 explain the y coordinate of the bullet
+.5 run the program to check the bullet position
+.6 define the fire function after the enemy function
+.7 inside the fire function define bullet_state like 
+global variable, for change the value inside the function
+.8 put bullet_state = "fire"
+.9 add 16 to "y" and 10 to "x" for the correct position
+in the screen
+.10 change the value of the rate to change of the bullet by 10
+.11 add a conditional inside the for loop, for detect
+the space key
+.12 add the logic for bullet movement after 
+enemy movement
+.13 now we have two problems: 
+   1. one shoot 
+   2. the bullet moves with the spaceship
+* the solution in the next part
+.14 review what has been done so far
+.15 add the file in staging area in git
+.16 do it a commit 
+.17 change of branch
+.18 do it a merge
+.19 do it the push
