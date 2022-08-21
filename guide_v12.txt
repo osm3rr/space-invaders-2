@@ -11,7 +11,7 @@ v12_8/9:reset the enemy ubication (lines:49, 198)
 v12_9/9: put the images in variables (line:14)
 
 
-#/// Video 11: Collision detection///
+#/// Video 12: Collision detection///
 .0 review what has been done so far
 .1 search the expression for the distante between
 two points

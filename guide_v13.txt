@@ -1,0 +1,29 @@
+#||||| Video 13: Creating multiples enemies 
+|||||||||| summary of comments
+v13_1/7 : list of parameters for multiple enemies (line:44)
+v13_2/7 : number of enemies (line:51)
+v13_3/7 : create a for loop for add the enemies (line:54)
+v13_4/7 : create a for loop for add the enemies (line:154)
+v13_5/7 : calculate the collision (line: 166)
+v13_6/7 : calling to enemy function (line: 177)
+v13_7/7: modify the enemy function (line:79)
+
+
+#/// Video 13: Creating multiples enemies///
+.0 review what has been done so far
+.1 include a list for each parameters in
+the defenition of the enemy
+.2 create a for loop for add enemies
+.3 create a for loop for the enemies movement
+.4 calculate the collision for each enemy, for this
+we need insert that code inside the for loop
+.5 add the index in each enemy variable, for 
+calculate the collision
+.6 call to the enemy function inside the for loop
+.7 modify the enemy function
+.8 review what has been done so far
+.9 add the file in staging area in git
+.10 do it a commit 
+.11 change of branch
+.12 do it a merge
+.13 do it the push

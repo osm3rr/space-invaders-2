@@ -1,7 +1,7 @@
 from nis import match
 import pygame 
 import random
-# ||||||| v12_2/9: math library (line:4)
+# math library
 import math
 
 # initializate pygame
@@ -11,7 +11,7 @@ pygame.init()
 screen_width = 800
 screen_height = 600
 
-# ||||||||| v12_9/9: put the images in variables (line:14)
+# put the images in variables
 bg_image = "night_space.png"
 icon_image = "ufo.png"
 player_image = "player.png"
@@ -41,23 +41,23 @@ player_y = 480
 # add the rate change in x
 player_x_change = 0
 
-# enemy definition
-enemy_img = pygame.image.load( alien_image )
+# |||||||| v13_1/7 : list of parameters for multiple enemies (line:44)
+enemy_img = []
+enemy_x = []
+enemy_y = []
+enemy_y_change = []
+enemy_x_change = []
 
-# randoom movement of the enemy in x
-# enemy_x = 370
-# ||||||||| v12_8/9:reset the enemy ubication (line:49)
-enemy_x = random.randint( 0, 735 )
+# |||||||| v13_2/7 : number of enemies (line:51)
+number_enemies = 8
 
-# randoom movement of the enemy in y
-# enemy_y = 50
-enemy_y = random.randint( 50, 150 )
-
-# change the enemy speed
-enemy_x_change = 4
-
-# change the value of rate change in "y"
-enemy_y_change = 40
+# |||||||| v13_3/7 : create a for loop for add the enemies (line:54)
+for item in range( number_enemies ):
+    enemy_img.append( pygame.image.load( alien_image ) )
+    enemy_x.append( random.randint( 0, 735 ) )
+    enemy_y.append( random.randint( 50, 150 ) )
+    enemy_x_change.append( 4 )
+    enemy_y_change.append( 40 )
 
 # Create the bullet
 # bullet definition
@@ -68,7 +68,7 @@ bullet_x_change = 0
 bullet_y_change = 20
 bullet_state = "ready"
 
-# |||||||| v12_5/9: score variable (line: 71)
+# score variable
 score = 0
 
 # player function
@@ -76,8 +76,9 @@ def player(x, y):
     screen.blit( player_img, ( x, y ) )
 
 # enemy function
-def enemy(x, y):
-    screen.blit( enemy_img, ( x, y ) )
+#|||||||| v13_7/7: modify the enemy function (line:79)
+def enemy(x, y, item):
+    screen.blit( enemy_img[item], ( x, y ) )
 
 # create fire function
 def fire(x, y):
@@ -86,7 +87,7 @@ def fire(x, y):
     # the initial position of the bullet
     screen.blit( bullet_img, ( x + 16, y + 10 ) )
 
-# |||||||| v12_1/9: function to detect the collision ( line:89 )
+# function to detect the collision
 def is_collision( enemy_x, enemy_y, bullet_x, bullet_y ):
     distance = math.sqrt( ( enemy_x - bullet_x )**2 + ( enemy_y - bullet_y )**2 )
     
@@ -150,23 +151,31 @@ while running:
     elif player_x >= 736: 
         player_x = 736
 
-    # logic for movement of the enemy
-    enemy_x += enemy_x_change
-    if enemy_x <= 0:
-
-        #change the enemy speed
-        enemy_x_change = 6
-        enemy_y += enemy_y_change
-
-    # size of the enemy is according 
-    # to size of the enemy in px. in this case the enemy
-    # size is 24 px, this is: 800 - 24: 776
-      
-    elif enemy_x >= 736: 
-        #change the enemy speed
-        enemy_x_change = -6
+    # |||||||| v13_4/7 : create a for loop for add the enemies (line:154)
+    for item in range( number_enemies ):
+        enemy_x[item] += enemy_x_change[item]
         
-        enemy_y += enemy_y_change
+        if enemy_x[item] <= 0:
+            enemy_x_change[item] = 6
+            enemy_y[item] += enemy_y_change[item]
+        
+        elif enemy_x[item] >= 736: 
+            enemy_x_change[item] = -6
+            enemy_y[item] += enemy_y_change[item]
+        
+        #|||||||| v13_5/7 : calculate the collision (line: 166)
+        # and add the index to the enemy
+        collision = is_collision( enemy_x[item], enemy_y[item], bullet_x, bullet_y )
+        
+        if collision:
+            bullet_y = 480
+            bullet_state = "ready"
+            score += 1
+            enemy_x[item] = random.randint( 0, 735 )
+            enemy_y[item] = random.randint( 50, 150 )
+        
+        #|||||||| v13_6/7 : calling to enemy function (line: 177)
+        enemy( enemy_x[item], enemy_y[item], item )
 
     # logic for bullet movement
 
@@ -183,27 +192,9 @@ while running:
         fire( bullet_x, bullet_y )
         # bullet movement
         bullet_y -= bullet_y_change
-    
-    # ||||||||| v12_3/9: save the result of collision function (line:187 )
-    collision = is_collision( enemy_x, enemy_y, bullet_x, bullet_y )
-    
-    # ||||||||| v12_4/9: is there a collision? ( line:190 )
-    if collision:
-        bullet_y = 480
-        bullet_state = "ready"
-        # ||||||||| v12_6/9: increment the score variable ( line:194 )
-        score += 1
-        # ||||||||| v12_7/9: remove the print() (line:196)
-        # print( score )
-        # ||||||||| v12_8/9:reset the enemy ubication (line:198)
-        enemy_x = random.randint( 0, 735 )
-        enemy_y = random.randint( 50, 150 )
 
     # add the arguments to function
     player( player_x, player_y )
-
-    # calling to enemy function
-    enemy( enemy_x, enemy_y )
     
     # update the window 
     pygame.display.update()
