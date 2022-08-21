@@ -1,0 +1,37 @@
+#||||| Video 12: Collision detection 
+|||||||||| summary of comments
+v12_1/9: function to detect the collision ( line:89 )
+v12_2/9: math library (line:4)
+v12_3/9: save the result of collision function (line:187)
+v12_4/9: is there a collision? ( line:190 )
+v12_5/9: score variable (line: 71)
+v12_6/9: increment the score variable ( line:194 )
+v12_7/9: remove the print() (line:196)
+v12_8/9:reset the enemy ubication (lines:49, 198)
+v12_9/9: put the images in variables (line:14)
+
+
+#/// Video 11: Collision detection///
+.0 review what has been done so far
+.1 search the expression for the distante between
+two points
+.2 create a new function for detect the collision,
+before the game loop
+.3 create the distante variable, to perform the calculation
+.4 import the math library
+.5 save the result of the collision function
+.6 add the score variable, after bullet definition
+.7 increment the score variable if the collision is True
+.8 for teaching purposes insert a print(score), for show
+the increment with the collision.
+.9 remove the print(score)
+.10 if collision is True,
+reset the enemy ubication
+.11 redefine enemy's random position tuple, put on (0, 735)
+.12 for a better order, put the images in variables at beginning
+.13 review what has been done so far
+.14 add the file in staging area in git
+.15 do it a commit 
+.16 change of branch
+.17 do it a merge
+.18 do it the push
