@@ -25,9 +25,9 @@ This sentences go inside the conditionals of the logic
 for movement of the enemy
 .7 review what has been done so far
 .8 add the file in staging area in git
-.9 do it a commit 
+.9 do a commit 
 .10 change of branch
-.11 do it a merge
-.12 do it the push
+.11 do a merge
+.12 do the push
 
 

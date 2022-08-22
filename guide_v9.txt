@@ -16,7 +16,7 @@ after fill method
 .5 increment the speed of the player
 .6 review what has been done so far
 .7 add the file in staging area in git
-.8 do it a commit 
+.8 do a commit 
 .9 change of branch
-.10 do it a merge
-.11 do it the push
+.10 do a merge
+.11 do the push

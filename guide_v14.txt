@@ -1,0 +1,27 @@
+#||||| Video 14: adding text and display score
+|||||||||| summary of comments
+v14_1/5: font variable (line:72)
+v14_2/5: text position in the scren (line:75)
+v14_3/5: function to show the text on the screen (line:79)
+v14_4/5: show the text on the screen (line:82 )
+v14_5/5: call show_text function (line:209 )
+
+
+#/// Video 14: adding text and display score///
+.0 review what has been done so far
+.1 remove the score
+.2 define a font variable, for the type font
+.3 we can download fonts from the web site:
+ https://www.fontspace.com/category/ttf or other
+.4 to use another font, just put the .ttf file in
+the project folder and pass the name as an argument 
+to the .Font method
+.5 define the screen position of the text
+.6 define a function to show the text on the screen
+.7 call show_text function
+.8 review what has been done so far
+.9 add the file in staging area in git
+.10 do a commit 
+.11 change of branch
+.12 do the merge
+.13 do the push

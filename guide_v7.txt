@@ -28,8 +28,8 @@ after the calling to the player function
 coordinates
 .12 review what has been done so far
 .13 add the file in staging area in git
-.14 do it a commit 
+.14 do a commit 
 .15 change of branch
-.16 do it a merge
-.17 do it the push
+.16 do a merge
+.17 do the push
 

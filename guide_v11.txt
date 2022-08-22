@@ -23,9 +23,9 @@ the spaceship if the space key is pressed.
 .8 add a condition for review the bullet state
 .9 review what has been done so far
 .10 add the file in staging area in git
-.11 do it a commit 
+.11 do a commit 
 .12 change of branch
-.13 do it a merge
-.14 do it the push
+.13 do a merge
+.14 do the push
 
 

@@ -23,7 +23,7 @@ calculate the collision
 .7 modify the enemy function
 .8 review what has been done so far
 .9 add the file in staging area in git
-.10 do it a commit 
+.10 do a commit 
 .11 change of branch
-.12 do it a merge
-.13 do it the push
+.12 do a merge
+.13 do the push

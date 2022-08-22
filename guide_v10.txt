@@ -31,7 +31,7 @@ enemy movement
 * the solution in the next part
 .14 review what has been done so far
 .15 add the file in staging area in git
-.16 do it a commit 
+.16 do a commit 
 .17 change of branch
-.18 do it a merge
-.19 do it the push
+.18 do a merge
+.19 do the push

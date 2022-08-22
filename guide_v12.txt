@@ -31,7 +31,7 @@ reset the enemy ubication
 .12 for a better order, put the images in variables at beginning
 .13 review what has been done so far
 .14 add the file in staging area in git
-.15 do it a commit 
+.15 do a commit 
 .16 change of branch
-.17 do it a merge
-.18 do it the push
+.17 do a merge
+.18 do the push
