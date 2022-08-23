@@ -1,0 +1,29 @@
+#||||| Video 15: adding sounds and background music
+|||||||||| summary of comments
+v15_1/4: library to reproduce the sounds (line:6)
+v15_2/4: background music (line:32)
+v15_3/4: bullet sound (line:139)
+v15_4/4: explosion sound (line:191)
+
+
+#/// Video 15: adding sounds and background music ///
+.0 review what has been done so far
+.1 select the music for background,shoot and collision
+.2 for download souns: https://pixabay.com/sound-effects
+.3 to convert this sounds into .wav: 
+https://cloudconvert.com/mp3-to-wav
+.4 every student can select a different effect
+.5 put .wav files in the project folder
+.6 from pygame import mixer to reproduce the sounds
+.7 insert the background music, after the background image
+.8 play the background music in a loop, for this put
+minus 1 into play method
+.9 run the program and check if the background music work
+.10 insert the bullet sound after pressed the space key
+.11 insert the explosion sound in the collision conditional
+.12 review what has been done so far
+.13 add the file in staging area in git
+.14 do a commit 
+.15 change of branch
+.16 do the merge
+.17 do the push
