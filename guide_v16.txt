@@ -1,0 +1,28 @@
+#||||| Video 16: Game over
+|||||||||| summary of comments
+
+v16_1/6: Game over zone (line:188)
+v16_2/6: Call game_over function (line:193)
+v16_3/6: break the loop (line:196)
+v16_4/6: game over font (line:85)
+v16_5/6: game over function (line:90)
+v16_6/6: show the text on the screen (line:93)
+
+
+#/// Video 16: Game over ///
+.0 review what has been done so far
+.1 insert a conditional, to define a game over zone
+inside the enemy loop
+.2 for loop to send invaders out of the window
+.3 call the game over function
+.4 break the for loop
+.5 define the game over text, after score font definition
+.6 create the game over function
+.7 add the arguments go_x and go_y to the game_over function
+.8 run the program and check the size of game over text
+.9 review what has been done so far
+.10 add the file in staging area in git
+.11 do a commit 
+.12 change of branch
+.13 do the merge
+.14 do the push
